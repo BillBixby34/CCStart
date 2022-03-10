@@ -1,0 +1,74 @@
+
+body {
+
+  /* Typography */
+    font-family: Gungsuh, serif, "Times New Roman";
+    background-image: url("../assets/picsForWebsite/red_granite.jpeg")
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 720px;
+  height: 540px;
+  margin: auto;
+}
+/* -------Nav Bar------ */
+
+
+/* -------End Nav Bar ------- */
+
+.about-staff-header {
+margin-bottom: 33px;
+font-weight: bold;
+color: #DAB;
+}
+
+.about-staff {
+  width: 100%;
+  padding: 30px;
+
+  margin-top: 33px;
+  background-color: black;
+}
+
+.about-staff > p {
+  padding-top: 20px;
+  font-size: 16px;
+  line-height: 30px;
+  color: #FAD;
+}
+
+#profile-image {
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+/* Footer */
+.footer {
+  /* Positioning absolute breaks */
+  /* position: absolute; */
+  bottom: 0;
+  background-color: yellow;
+}
+.footer-two-tone {
+  
+  background-color: #DAB;
+  height: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#connect-images {
+  /* Box-model */
+  display: flex;
+  justify-content: center;
+}
+.social {
+  /* Box-model */
+  height: 60px;
+  width: 60px;
+  /* Typography */
+  
+}
