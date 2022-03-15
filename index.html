@@ -23,21 +23,36 @@
 <body>
     <div class="container">
       
-        <!--Will put navbar in container, may move-->
-        <nav class="navbar navbar-inverse">
-            <div class="container-fluid">
-              <div class="navbar-header">
-                <a class="navbar-brand" href="#">Carolina CC</a>
-              </div>
-              <ul class="nav navbar-nav navbar-right">
-           
-                <li><a href="CCreekProgram.html">Program</a></li>
-                <li><a href="CCreekStaff.html">Staff</a></li>
-                <!-- Make sign up a drop down -->
-                <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScy0DpstFu6DXPbxDnqNdO10BYL-q4oqR_ip53oxp7Cuiwlpw/viewform">Sign up</a></li>
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#creekNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Carolina CC</a>
+          </div>
+          <div class="collapse navbar-collapse" id="creekNavbar">
+            <ul class="nav navbar-nav navbar-right">
+            
+            <li><a href="CCreekProgram.html">Program</a></li>
+            <li><a href="CCreekStaff.html">Staff</a></li>
+            <!-- Make sign up a drop down -->
+            <li>
+              <a class="dropdown-toggle" data-toggle="dropdown" href="https://docs.google.com/forms/d/e/1FAIpQLScy0DpstFu6DXPbxDnqNdO10BYL-q4oqR_ip53oxp7Cuiwlpw/viewform">Sign up
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="add summer">Summer</a></li>
+                <li><a href="add afterschool">Afterschool</a></li>
+                <li><a href="add fall">Fall '22</a></li>
               </ul>
-            </div>
-          </nav>
+            </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
         <div class="row">
             <div class="jumbotron">
                 <h1 class="text-center">Welcome to Creek Club!</h1>
@@ -110,7 +125,7 @@
           <a href="mailto:carolinacreekclub@gmail.com"><img src="assets/picsForWebsite/Icons/email_icon.png" class="social" alt="email" /></a>
           <a href="https://www.facebook.com/CarolinaCreekClub/"><img src="assets/picsForWebsite/Icons/facebook_icon.png" class="social" alt="FB" /></a>
         </div>  
-       <p class="footer-text text-center">Copyright &copy; 2022 Carolina Creek Club</p> 
+       <p class="footer-text text-center"> &copy; Carolina Creek Club 2022</p> 
       </footer>
     
 </body>

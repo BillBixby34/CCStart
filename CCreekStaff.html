@@ -20,22 +20,36 @@
 <body>
     
       
-        <!--Will put navbar in container, may move-->
-        <!--Will put navbar in container, may move-->
-        <nav class="navbar navbar-inverse">
-            <div class="container-fluid">
-              <div class="navbar-header">
-                <a class="navbar-brand" href="#">Carolina CC</a>
-              </div>
-              <ul class="nav navbar-nav navbar-right">
-                
-                <li><a href="CCreekProgram.html">Program</a></li>
-                <li><a href="CCreekStaff.html">Staff</a></li>
-                <!-- Make sign up a drop down -->
-                <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScy0DpstFu6DXPbxDnqNdO10BYL-q4oqR_ip53oxp7Cuiwlpw/viewform">Sign up</a></li>
-              </ul>
-            </div>
-          </nav>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#creekNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Carolina CC</a>
+      </div>
+      <div class="collapse navbar-collapse" id="creekNavbar">
+        <ul class="nav navbar-nav navbar-right">
+        
+        <li><a href="CCreekProgram.html">Program</a></li>
+        <li><a href="CCreekStaff.html">Staff</a></li>
+        <!-- Make sign up a drop down -->
+        <li>
+          <a class="dropdown-toggle" data-toggle="dropdown" href="https://docs.google.com/forms/d/e/1FAIpQLScy0DpstFu6DXPbxDnqNdO10BYL-q4oqR_ip53oxp7Cuiwlpw/viewform">Sign up
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="add summer">Summer</a></li>
+            <li><a href="add afterschool">Afterschool</a></li>
+            <li><a href="add fall">Fall '22</a></li>
+          </ul>
+        </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
       <div class="container">
         <div class="row">
             <div class="jumbotron">
