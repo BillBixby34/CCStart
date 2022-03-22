@@ -1,9 +1,22 @@
 
 body {
-
+  /* positioning */
+  margin-bottom: 100px;
   /* Typography */
     font-family: Gungsuh, serif, "Times New Roman";
     background-image: url("../assets/picsForWebsite/red_granite.jpeg")
+}
+
+html {
+  /* Positioning */
+  position: relative;
+
+  /* Box-model
+  min-height: 100%; */
+}
+
+p {
+  color: #071715;
 }
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
@@ -11,15 +24,33 @@ body {
   height: 540px;
   margin: auto;
 }
+
+.jumbotron {
+  background: none;
+  color: #071715;
+}
 /* -------Nav Bar------ */
 
+/*set text to black*/
+.navbar {
+  color: #ffdf00;
+  background-color:#071715
+}
+/*set background to yellow*/
+/*hover should highlight*/
+.navbar .navbar-nav > li > a,
+.navbar .navbar-nav > li > a > .dropdown-toggle,
+.navbar .navbar-nav > .active > a{
+    color: #ffdf00;
+}
+/*hover will cause dropdown*/
 
 /* -------End Nav Bar ------- */
 
 .about-staff-header {
 margin-bottom: 33px;
 font-weight: bold;
-color: #DAB;
+color: #071715;
 }
 
 .about-staff {
@@ -27,34 +58,43 @@ color: #DAB;
   padding: 30px;
 
   margin-top: 33px;
-  background-color: black;
+  /*changing text to from black to white*/
+
+  /* background-color: whitesmoke; */
 }
 
 .about-staff > p {
   padding-top: 20px;
   font-size: 16px;
   line-height: 30px;
-  color: #FAD;
+  /* color: #FAD; */
 }
 
 #profile-image {
   float: left;
-  width: 200px;
-  height: 200px;
-  margin-top: 20px;
-  margin-right: 20px;
+  width: 230px;
+  height: 230px;
+  /* margin-top: 30px;
+  margin-right: 20px; */
+  margin: 30px 20px 10px;
 }
 
 /* Footer */
-.footer {
+footer {
   /* Positioning absolute breaks */
-  /* position: absolute; */
+  position: absolute;
   bottom: 0;
-  background-color: yellow;
+  width: 100%;
+  margin-top: 30px;
+  background-color: #ffdf00;
+}
+
+.footer-text{
+  color: #071715;
 }
 .footer-two-tone {
   
-  background-color: #DAB;
+  background-color: #071715;
   height: 10px;
   display: block;
   margin-left: auto;
@@ -67,8 +107,10 @@ color: #DAB;
 }
 .social {
   /* Box-model */
-  height: 60px;
-  width: 60px;
+  height: 36px;
+  width: 36px;
+  margin: 20px;
+  
   /* Typography */
   
 }
