@@ -1,6 +1,7 @@
 
 body {
-  /* positioning */
+  /* padding-top: 50px; */
+  padding-bottom: 20px;
   margin-bottom: 100px;
   /* Typography */
     font-family: Gungsuh, serif, "Times New Roman";
@@ -23,6 +24,14 @@ p {
   width: 720px;
   height: 540px;
   margin: auto;
+}
+.carousel img {
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 550px;
+  max-height: 550px;
+  width: auto;
 }
 
 .jumbotron {
@@ -50,7 +59,7 @@ p {
 .about-staff-header {
 margin-bottom: 33px;
 font-weight: bold;
-color: #071715;
+color: whitesmoke;
 }
 
 .about-staff {
