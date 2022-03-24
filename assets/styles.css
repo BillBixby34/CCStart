@@ -5,56 +5,80 @@ body {
   margin-bottom: 100px;
   /* Typography */
     font-family: Gungsuh, serif, "Times New Roman";
-    background-image: url("../assets/picsForWebsite/red_granite.jpeg")
+    background-image: url("../assets/picsForWebsite/red_granite.jpeg");
 }
 
+body#home {
+  background-image: url("../assets/picsForWebsite/splashPic02.jpg");
+}
 html {
   /* Positioning */
   position: relative;
 
-  /* Box-model
-  min-height: 100%; */
+  /* Box-model */
+  min-height: 100%;
+  /*Typography */
 }
 
-p {
-  color: #071715;
+p,
+h4,
+.jumbotron {
+  color: whitesmoke;
 }
-.carousel-inner > .item > img,
-.carousel-inner > .item > a > img {
-  width: 720px;
-  height: 540px;
-  margin: auto;
-}
+
 .carousel img {
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 550px;
-  max-height: 550px;
-  width: auto;
+  max-width: 100%;
+  height: auto;
+}
+.carousel-control {
+  opacity: 0.5;
+}
+
+.carousel-control:hover {
+  opacity: 0.5;
 }
 
 .jumbotron {
   background: none;
-  color: #071715;
+ 
 }
+
 /* -------Nav Bar------ */
 
 /*set text to black*/
-.navbar {
+/* .navbar {
   color: #ffdf00;
-  background-color:#071715
+  background-color: #071715;
+} */
+
+/* change brand color */
+
+
+/*FIX:  icon-bar color still not changed to below */
+.navbar .navbar-toggle .icon-bar {
+  color: #ffdf00;
 }
 /*set background to yellow*/
 /*hover should highlight*/
+.navbar,
+.navbar .navbar-brand,
+.navbar .navbar-nav .dropdown-menu,
+.navbar .navbar-nav .dropdown-menu > li >a,
 .navbar .navbar-nav > li > a,
 .navbar .navbar-nav > li > a > .dropdown-toggle,
-.navbar .navbar-nav > .active > a{
+.navbar .navbar-nav > .active > a {
     color: #ffdf00;
+    background-color: #071715;
 }
 /*hover will cause dropdown*/
 
 /* -------End Nav Bar ------- */
+
+
+/* --------Staff Page -------- */
 
 .about-staff-header {
 margin-bottom: 33px;
@@ -65,30 +89,28 @@ color: whitesmoke;
 .about-staff {
   width: 100%;
   padding: 30px;
-
   margin-top: 33px;
-  /*changing text to from black to white*/
-
-  /* background-color: whitesmoke; */
+  margin-bottom: 11px;
 }
 
 .about-staff > p {
   padding-top: 20px;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 30px;
-  /* color: #FAD; */
+  color: whitesmoke;
 }
 
 #profile-image {
   float: left;
-  width: 230px;
+  width: 200px;
   height: 230px;
   /* margin-top: 30px;
   margin-right: 20px; */
-  margin: 30px 20px 10px;
+  margin: 30px 20px 10px 0px;
 }
+/* --------End Staff Page --------*/
 
-/* Footer */
+/* --------Footer -------- */
 footer {
   /* Positioning absolute breaks */
   position: absolute;
@@ -108,6 +130,7 @@ footer {
   display: block;
   margin-left: auto;
   margin-right: auto;
+ 
 }
 #connect-images {
   /* Box-model */
@@ -123,3 +146,4 @@ footer {
   /* Typography */
   
 }
+/* --------End footer -------- */
