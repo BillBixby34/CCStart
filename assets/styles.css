@@ -29,6 +29,7 @@ html {
 }
 
 p,
+h4,
 .jumbotron,
 .about-staff-header,
 .about-staff > p
@@ -56,8 +57,7 @@ p,
  
 }
 
-#splash-page, 
-h4 {
+#splash-page {
   color: whitesmoke;
 }
 /* -------Nav Bar------ */
@@ -93,7 +93,9 @@ h4 {
 
 
 /* --------Staff Page -------- */
-
+body#staff {
+  background-image: url("../assets/picsForWebsite/bg01.jpeg");
+}
 .about-staff-header {
 margin-bottom: 33px;
 font-weight: bold;
@@ -105,6 +107,7 @@ font-weight: bold;
   padding: 30px;
   margin-top: 33px;
   margin-bottom: 11px;
+  background-color: #dfdce5;
 }
 
 .about-staff > p {
@@ -146,17 +149,15 @@ footer {
  
 }
 #connect-images {
-  /* Box-model */
+ 
   display: flex;
   justify-content: center;
 }
 .social {
-  /* Box-model */
+  
   height: 36px;
   width: 36px;
   margin: 20px;
-  
-  /* Typography */
   
 }
 /* --------End footer -------- */
