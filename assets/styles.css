@@ -5,12 +5,16 @@ body {
   margin-bottom: 100px;
   /* Typography */
     font-family: Gungsuh, serif, "Times New Roman";
-    background-image: url("../assets/picsForWebsite/red_granite.jpeg");
+    /* background-image: url("../assets/picsForWebsite/red_granite.jpeg"); */
+    background-color: #dfdce5;
 }
 
 body#home {
   background-image: url("../assets/picsForWebsite/splashPic02.jpg");
 }
+/* body#staff {
+  background-color: #dfdce5;
+} */
 html {
   /* Positioning */
   position: relative;
@@ -22,8 +26,11 @@ html {
 
 p,
 h4,
-.jumbotron {
-  color: whitesmoke;
+.jumbotron,
+.about-staff-header,
+.about-staff > p
+ {
+  color: #071715;
 }
 
 .carousel img {
@@ -83,7 +90,7 @@ h4,
 .about-staff-header {
 margin-bottom: 33px;
 font-weight: bold;
-color: whitesmoke;
+
 }
 
 .about-staff {
@@ -97,7 +104,6 @@ color: whitesmoke;
   padding-top: 20px;
   font-size: 18px;
   line-height: 30px;
-  color: whitesmoke;
 }
 
 #profile-image {
