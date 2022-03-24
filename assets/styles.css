@@ -11,6 +11,10 @@ body {
 
 body#home {
   background-image: url("../assets/picsForWebsite/splashPic02.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 /* body#staff {
   background-color: #dfdce5;
@@ -25,7 +29,6 @@ html {
 }
 
 p,
-h4,
 .jumbotron,
 .about-staff-header,
 .about-staff > p
@@ -53,6 +56,10 @@ h4,
  
 }
 
+#splash-page, 
+h4 {
+  color: whitesmoke;
+}
 /* -------Nav Bar------ */
 
 /*set text to black*/
@@ -66,7 +73,7 @@ h4,
 
 /*FIX:  icon-bar color still not changed to below */
 .navbar .navbar-toggle .icon-bar {
-  color: #ffdf00;
+  color: #fbad3c;
 }
 /*set background to yellow*/
 /*hover should highlight*/
@@ -77,7 +84,7 @@ h4,
 .navbar .navbar-nav > li > a,
 .navbar .navbar-nav > li > a > .dropdown-toggle,
 .navbar .navbar-nav > .active > a {
-    color: #ffdf00;
+    color: #fbad3c;
     background-color: #071715;
 }
 /*hover will cause dropdown*/
@@ -123,7 +130,7 @@ footer {
   bottom: 0;
   width: 100%;
   margin-top: 30px;
-  background-color: #ffdf00;
+  background-color: #fbad3c;
 }
 
 .footer-text{
