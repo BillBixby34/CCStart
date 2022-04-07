@@ -7,6 +7,8 @@ body {
     font-family: Gungsuh, serif, "Times New Roman";
     /* background-image: url("../assets/picsForWebsite/red_granite.jpeg"); */
     background-color: #dfdce5;
+    font-size: 18px;
+    line-height: 120%;
 }
 
 body#home {
@@ -56,10 +58,15 @@ h4,
   background: none;
  
 }
-
+/* ------- Home Page -------*/
 #splash-page {
   color: whitesmoke;
+  text-shadow: 2px 2px 2px #071715;
 }
+
+
+/* --------- end Home Page -------*/
+
 /* -------Nav Bar------ */
 
 /*set text to black*/
@@ -88,6 +95,9 @@ h4,
     background-color: #071715;
 }
 /*hover will cause dropdown*/
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
 
 /* -------End Nav Bar ------- */
 
