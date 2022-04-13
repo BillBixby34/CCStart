@@ -172,6 +172,14 @@ font-weight: bold;
 
 /* --------- Sign Up Page -----------*/
 
+body#sign-up {
+  background-image: url("../assets/picsForWebsite/bg03.jpg");
+  height: auto;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 /*opposite of .about-staff*/
 .session-info {
   background-image: linear-gradient(to bottom right, #071715, #fbad3c);
