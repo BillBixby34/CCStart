@@ -14,12 +14,14 @@ body {
 body#home {
   background-image: url("../assets/picsForWebsite/splashPic02.jpg");
   height: auto;
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-body#sign-up {
+body#sign-up,
+#program {
   background-color:#fbad3c
 
 }
@@ -34,7 +36,21 @@ html {
   min-height: 100%;
   /*Typography */
 }
-#page-title {
+
+ p {
+  padding-top: 20px;
+  font-size: 18px;
+  line-height: 30px;
+  color: whitesmoke;
+}
+
+a {
+  color: #fbad3c;
+}
+/* article {
+  background-image: linear-gradient(to bottom right, #fbad3c, #071715);
+} */
+h1 {
   color: #dfdce5;
   text-shadow: 2px 2px 5px #071715;
 }
@@ -103,7 +119,17 @@ html {
 /* --------Staff Page -------- */
 
 body#staff {
-  background-image: url("../assets/picsForWebsite/bg01.jpeg");
+  background-image: url("../assets/picsForWebsite/bg02.jpg");
+  height: auto;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*opposite of .session-info*/
+.about-staff {
+  background-image: linear-gradient(to bottom right, #fbad3c, #071715);
 }
 
 #staff-title {
@@ -116,7 +142,8 @@ font-weight: bold;
 
 }
 
-.about-staff {
+.about-staff,
+.session-info {
   width: 100%;
   padding: 30px;
   margin-top: 33px;
@@ -126,11 +153,11 @@ font-weight: bold;
   
 }
 
-.about-staff > p {
+/* .about-staff > p {
   padding-top: 20px;
   font-size: 18px;
   line-height: 30px;
-}
+} */
 
 #profile-image {
   float: left;
@@ -141,6 +168,22 @@ font-weight: bold;
   margin: 30px 20px 10px 0px;
 }
 /* --------End Staff Page --------*/
+
+
+/* --------- Sign Up Page -----------*/
+
+/*opposite of .about-staff*/
+.session-info {
+  background-image: linear-gradient(to bottom right, #071715, #fbad3c);
+}
+
+#page-title {
+  color: #dfdce5;
+  text-shadow: 2px 2px 5px #071715;
+}
+
+/*--------- End Sign Up Page ---------*/
+
 
 /* --------Footer -------- */
 footer {
