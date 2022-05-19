@@ -259,4 +259,11 @@ footer {
     font-weight: bold;
     text-align: center;
   }
+  .jumbotron{
+    padding-top: 0;
+    margin-bottom: 0;
+  }
+  .navbar{
+    margin-bottom: 0;
+  }
 }
