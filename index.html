@@ -8,8 +8,15 @@
   <!-- Testing webhosting
   <meta name="wb:op" content="1ff814933059b44a6edbc5612fa9d22f"/> -->
     <!-- Boostrap Stylesheet -->
-    <link rel="stylesheet" href="assets/bootstrap.min.css" media="screen">
-     <!-- Our own CSS stylesheet -->
+    <!-- <link rel="stylesheet" href="assets/bootstrap.min.css" media="screen"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
      <link rel="stylesheet" href="assets/styles.css" media="screen">
 
 </head>
@@ -25,7 +32,10 @@
               <span class="icon-bar"></span>
             </button>
             <!-- Logo will go here -->
-            <a class="navbar-brand" href="index.html" id="logo">Carolina CC</a>
+            <a href="index.html" class="navbar-left" id="logo">
+              <img src="assets/picsForWebsite/CCCLogo01.png" alt="logo" />
+            </a>
+           
           </div>
           <div class="collapse navbar-collapse" id="creekNavbar">
             <ul class="nav navbar-nav navbar-right">
@@ -35,12 +45,7 @@
             <!-- Make sign up a drop down -->
             <li>
               <a  href="SignUp.html">Sign up</a> 
-              <!-- <ul class="dropdown-menu">
-              <li><a href="https://docs.google.com/forms/d/1dpi0RKKCZvgjGPHWC0IswK0WLAagSygwkhjDs8p1QuU/edit" target="_blank">Summer</a></li>
-              <li><a href="https://docs.google.com/forms/u/2/d/1Hz-346kH9p8bpUMLA_PXnqOMjqzqHfjxURny7uRVWI4/edit?usp=drive_web" target="_blank">Afterschool</a></li>
-              <li><a href="#">Teacher Workday</a></li>
-              
-              </ul> -->
+            
           </li>
             </ul>
           </div>
@@ -52,13 +57,21 @@
          <div class="col-lg-12">
             <div class="jumbotron">
                 <h1 class="text-center" id="splash-page">Welcome to Carolina Creek Club!</h1>
-                <h4 id="splash-page"> 
-                  Carolina Creek Club has rolling enrollment for the 2021-2022 school year for ages 5-12. Younger children accepted on a case by case basis. If you'd like more info or are interested in a trial day please email   <strong>CarolinaCreekClub@gmail.com</strong>.  After a trial day families can decide to sign up for the full month.  Each month families sign up for a  once a week commitment.
-              </h4>
+                
             </div>
           </div>
         </div>
-      
+        <!-- Move this text to bottom-left of page -->
+        <div class="row">
+          <div class="col-lg-12">
+            <section id="splash-text">
+              <!-- remove id="splash-page" from h4 below -->
+              <h4> 
+                Carolina Creek Club has rolling enrollment for the 2021-2022 school year for ages 5-12. Younger children accepted on a case by case basis.<br> If you'd like more info or are interested in a trial day please email   <strong>CarolinaCreekClub@gmail.com</strong>.<br>  After a trial day families can decide to sign up for the full month.  Each month families sign up for a  once a week commitment.
+            </h4>
+            </section>
+          </div>
+        </div>
        
       </div><!-- closes container -->
       <footer class="footer">

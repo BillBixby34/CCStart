@@ -85,13 +85,21 @@ h1 {
   padding-top: 7px;
   padding-right: 21px;
 }
-#logo{
-  height: 60px;
-  padding-top: 20px;
-  padding-bottom: 8px;
-  /* margin-left: 24px; */
-  font-size: 24px;
+
+.navbar-left > img {
+  width: auto;
+  height: 100px;
 }
+.navbar-brand {
+  padding: 0px;
+}
+
+/* below is different icon attempt in index */
+/* .navbar-left{
+  width: 27px;
+  height: 40px;
+ margin-left: 24px;
+} */
 /* button {
   padding-top: 20px;
 } */
@@ -102,7 +110,7 @@ h1 {
 /*set background to yellow*/
 
 .navbar,
-.navbar .navbar-brand,
+/* .navbar .navbar-brand, */
 .navbar .navbar-nav .dropdown-menu,
 .navbar .navbar-nav .dropdown-menu > li >a,
 .navbar .navbar-nav > li > a,
@@ -124,7 +132,12 @@ h1 {
   color: whitesmoke;
   text-shadow: 2px 2px 5px #071715;
 }
-
+#splash-text {
+  position: fixed;
+  bottom: 40%;
+  left:5%;
+  color: whitesmoke;
+}
 
 /* --------- end Home Page -------*/
 
