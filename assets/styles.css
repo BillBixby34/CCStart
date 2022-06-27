@@ -11,18 +11,11 @@ body {
     line-height: 120%;
 }
 
-body#home {
-  background-image: url("../assets/picsForWebsite/splashPic02.jpg");
-  height: auto;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+
 
 body#sign-up,
 #program {
-  background-color:#fbad3c
+  background-color:#fbad3c;
 
 }
 /* body#staff {
@@ -80,19 +73,34 @@ h1 {
 
 
 /* -------Nav Bar------ */
+/* NOTE: navbar can be position: fixed, but text should not */
+/* Will try position: sticky to see if it works */
+/* For position also specify at least one of top, right, bottom or left for sticky positioning to work. */
 
-.navbar-right-custom {
+/* Not sure what navbar-right does, may delete */
+.navbar-right {
   padding-top: 7px;
   padding-right: 21px;
+  margin-top: 15px;
+}
+
+nav
+/* setup .navbar-toggle for menu button placement */
+button.navbar-toggle {
+  margin-top: 30px;
+  margin-right: 20px;
+  
 }
 
 .navbar-left > img {
-  width: auto;
+  /* width: auto; */
   height: 100px;
 }
-.navbar-brand {
+/* FIX: .navbar-brand and #logo should point to same thing */
+/* .navbar-brand is used for padding brand for now */
+/* .navbar-brand {
   padding: 0px;
-}
+} */
 
 /* below is different icon attempt in index */
 /* .navbar-left{
@@ -127,15 +135,26 @@ h1 {
 /* -------End Nav Bar ------- */
 
 /* ------- Home Page -------*/
+
+body#home {
+  background-image: url("../assets/picsForWebsite/splashPic02.jpg");
+  height: auto;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #splash-page {
+  position: relative;
   margin-bottom: 20px;
   color: whitesmoke;
   text-shadow: 2px 2px 5px #071715;
 }
 #splash-text {
-  position: fixed;
-  bottom: 40%;
-  left:5%;
+  /* position: relative; */
+  top: 200px;
+ 
   color: whitesmoke;
 }
 
@@ -256,8 +275,10 @@ footer {
 /* --------End footer -------- */
 @media only screen and (max-width: 767px) {
  
+  /* Below should be renamed to adjust brand/image AND */
+  /* width messes with image placement */
   #logo {
-    width: 100%;
+    /* width: 100%; */
 
     /* Box-model */
     height: 60px;
