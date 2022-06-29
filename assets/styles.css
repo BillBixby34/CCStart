@@ -87,7 +87,7 @@ h1 {
 nav
 /* setup .navbar-toggle for menu button placement */
 button.navbar-toggle {
-  margin-top: 30px;
+  margin-top: 50px;
   margin-right: 20px;
   
 }
@@ -154,8 +154,12 @@ body#home {
 #splash-text {
   /* position: relative; */
   top: 200px;
- 
   color: whitesmoke;
+  /* Fix for text over background below */
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6);
 }
 
 /* --------- end Home Page -------*/
@@ -275,24 +279,20 @@ footer {
 /* --------End footer -------- */
 @media only screen and (max-width: 767px) {
  
-  /* Below should be renamed to adjust brand/image AND */
-  /* width messes with image placement */
-  #logo {
-    /* width: 100%; */
-
+  #logo > img {
+    width: 100%;
+    max-width: 300px;
+  
+    /* Need to adjust menu button to center */
+    
     /* Box-model */
-    height: 60px;
-    padding-top: 20px;
-    padding-bottom: 5px;
+    height: 150px;
+ 
 
     /* Positioning */
     margin-left: 0;
-   
-    /* Typography */
-    font-size: 24px;
-    font-weight: bold;
-    text-align: center;
   }
+ 
   .jumbotron{
     padding-top: 0;
     margin-bottom: 0;
