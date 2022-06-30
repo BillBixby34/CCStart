@@ -6,18 +6,19 @@ body {
   /* Typography */
     font-family: Gungsuh, serif, "Times New Roman";
     /* background-image: url("../assets/picsForWebsite/red_granite.jpeg"); */
-    background-color: #dfdce5;
+    background-color: #fbad3c;
     font-size: 18px;
     line-height: 120%;
 }
 
 
 
-body#sign-up,
-#program {
+/* body#sign-up,
+#staff,
+#home {
   background-color:#fbad3c;
 
-}
+} */
 /* body#staff {
   background-color: #dfdce5;
 } */
@@ -51,19 +52,9 @@ h1 {
   color: #dfdce5;
   text-shadow: 2px 2px 5px #071715;
 }
-.carousel img {
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  max-width: 100%;
-  height: auto;
-}
-.carousel-control {
-  visibility: hidden;
-}
 
-.carousel-control:hover {
-  opacity: 0.5;
+h4 {
+  line-height: 21px;
 }
 
 .jumbotron {
@@ -137,7 +128,8 @@ button.navbar-toggle {
 /* ------- Home Page -------*/
 
 body#home {
-  background-image: url("../assets/picsForWebsite/splashPic02.jpg");
+  /* changed background image from 02 to 05 */
+  background-image: url("../assets/picsForWebsite/splashPic05.jpg");
   height: auto;
   background-attachment: fixed;
   background-position: center;
@@ -160,9 +152,39 @@ body#home {
   padding: 5px;
   text-align: center;
   background: rgba(0, 0, 0, 0.6);
+  margin-bottom: 10px;
+  margin-top: 150px;
 }
 
 /* --------- end Home Page -------*/
+
+
+/* ---------- Program Page ----------*/
+
+body#program{
+  /* background-image: url("../assets/picsForWebsite/splashPic03.jpg") */
+} 
+#program-info{
+  margin-bottom: 15px;
+}
+.carousel img {
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+.carousel-control {
+  visibility: hidden;
+}
+
+.carousel-control:hover {
+  opacity: 0.5;
+}
+
+
+/* -------- end Program Page ---------*/
+
 
 /* --------Staff Page -------- */
 
@@ -209,8 +231,8 @@ font-weight: bold;
 
 #profile-image {
   float: left;
-  width: 200px;
-  height: 230px;
+  width:192px;
+  height: 288px;
   /* margin-top: 30px;
   margin-right: 20px; */
   margin: 30px 20px 10px 0px;
