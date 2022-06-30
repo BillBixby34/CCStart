@@ -160,20 +160,25 @@ body#home {
 
 
 /* ---------- Program Page ----------*/
-
+#program-article {
+  margin-bottom: 10px;
+  padding-bottom: 15px;
+}
 body#program{
   /* background-image: url("../assets/picsForWebsite/splashPic03.jpg") */
 } 
 #program-info{
   margin-bottom: 15px;
 }
-.carousel img {
+/* removing carousel test
+to see if carousel settings are affecting placement elsewhere */
+/* .carousel img {
   top: 0;
   left: 0;
   min-width: 100%;
   max-width: 100%;
   height: auto;
-}
+} */
 .carousel-control {
   visibility: hidden;
 }
@@ -182,7 +187,16 @@ body#program{
   opacity: 0.5;
 }
 
+#program-image img {
+  margin-left: 0;
+  width: 256px;
+  height: 192px;
+  margin-bottom: 5px;
+}
 
+#test-color {
+  color: #071715;
+}
 /* -------- end Program Page ---------*/
 
 
@@ -269,7 +283,6 @@ footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  margin-top: 30px;
   background-color: #fbad3c;
 }
 
@@ -283,6 +296,7 @@ footer {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  /* margin-top: 10px; */
   
  
 }
