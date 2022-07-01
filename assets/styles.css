@@ -189,8 +189,10 @@ to see if carousel settings are affecting placement elsewhere */
 
 #program-image img {
   margin-left: 0;
-  width: 256px;
-  height: 192px;
+  /* width: 256px; */
+  /* height: 192px; */
+  width: 100%;
+  height: auto;
   margin-bottom: 5px;
 }
 
