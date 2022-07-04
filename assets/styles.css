@@ -179,14 +179,22 @@ to see if carousel settings are affecting placement elsewhere */
   max-width: 100%;
   height: auto;
 } */
-.carousel-control {
+/* .carousel-control {
   visibility: hidden;
 }
 
 .carousel-control:hover {
   opacity: 0.5;
-}
+} */
 
+.img-thumbnail { 
+-webkit-filter: grayscale(1);
+filter: grayscale(1);
+}
+img:hover {
+-webkit-filter: grayscale(0);
+filter: none;
+}
 #program-image img {
   margin-left: 0;
   /* width: 256px; */
