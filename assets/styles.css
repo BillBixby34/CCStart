@@ -12,16 +12,6 @@ body {
 }
 
 
-
-/* body#sign-up,
-#staff,
-#home {
-  background-color:#fbad3c;
-
-} */
-/* body#staff {
-  background-color: #dfdce5;
-} */
 html {
   /* Positioning */
   position: relative;
@@ -45,10 +35,8 @@ html {
 a {
   color: #fbad3c;
 }
-/* article {
-  background-image: linear-gradient(to bottom right, #fbad3c, #071715);
-} */
-h1 {
+
+.jumbotron > h1 {
   color: #dfdce5;
   text-shadow: 2px 2px 5px #071715;
 }
@@ -64,7 +52,7 @@ h4 {
 
 
 /* -------Nav Bar------ */
-/* NOTE: navbar can be position: fixed, but text should not */
+
 /* Will try position: sticky to see if it works */
 /* For position also specify at least one of top, right, bottom or left for sticky positioning to work. */
 
@@ -87,21 +75,7 @@ button.navbar-toggle {
   /* width: auto; */
   height: 100px;
 }
-/* FIX: .navbar-brand and #logo should point to same thing */
-/* .navbar-brand is used for padding brand for now */
-/* .navbar-brand {
-  padding: 0px;
-} */
 
-/* below is different icon attempt in index */
-/* .navbar-left{
-  width: 27px;
-  height: 40px;
- margin-left: 24px;
-} */
-/* button {
-  padding-top: 20px;
-} */
 
 .navbar-inverse .navbar-toggle .icon-bar{
   background-color: #fbad3c;
@@ -118,10 +92,6 @@ button.navbar-toggle {
     color: #fbad3c;
     background-color: #071715;
 }
-
-
-/*hover will cause dropdown*/
-
 
 /* -------End Nav Bar ------- */
 
@@ -197,8 +167,6 @@ filter: none;
 }
 #program-image img {
   margin-left: 0;
-  /* width: 256px; */
-  /* height: 192px; */
   width: 100%;
   height: auto;
   margin-bottom: 5px;
@@ -239,11 +207,12 @@ font-weight: bold;
 .about-staff,
 .session-info {
   width: 100%;
-  padding: 30px;
+  padding: 20px;
   margin-top: 33px;
   margin-bottom: 20px;
   color: #dfdce5;
   text-shadow: 2px 2px 5px #071715;
+  overflow: hidden;
   
 }
 
@@ -259,7 +228,7 @@ font-weight: bold;
   height: 288px;
   /* margin-top: 30px;
   margin-right: 20px; */
-  margin: 30px 20px 10px 0px;
+  margin: 30px 20px 5px 0px;
 }
 /* --------End Staff Page --------*/
 
