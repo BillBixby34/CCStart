@@ -4,7 +4,7 @@ body {
   padding-bottom: 20px;
   margin-bottom: 100px;
   /* Typography */
-    font-family: Gungsuh, serif, "Times New Roman";
+    font-family: Charlegmagne, Gungsuh, sans-serif, "Times New Roman";
     /* background-image: url("../assets/picsForWebsite/red_granite.jpeg"); */
     background-color: #fbad3c;
     font-size: 18px;
@@ -48,6 +48,8 @@ h4 {
 .jumbotron {
   background: none; 
   padding-top: 20px;
+  margin-bottom: 30px;
+  max-height: 250px;
 }
 
 
@@ -102,7 +104,7 @@ body#home {
   background-image: url("../assets/picsForWebsite/splashPic05.jpg");
   height: auto;
   background-attachment: fixed;
-  background-position: center;
+  background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -120,10 +122,12 @@ body#home {
   /* Fix for text over background below */
   width: 100%;
   padding: 5px;
+  
   text-align: center;
   background: rgba(0, 0, 0, 0.6);
   margin-bottom: 10px;
-  margin-top: 150px;
+  margin-top: 300px;
+  margin-right: 100%;
 }
 
 /* --------- end Home Page -------*/
@@ -131,12 +135,19 @@ body#home {
 
 /* ---------- Program Page ----------*/
 #program-article {
+  margin-top: 20px;
   margin-bottom: 10px;
   padding-bottom: 15px;
 }
 body#program{
   /* background-image: url("../assets/picsForWebsite/splashPic03.jpg") */
 } 
+.program-title {
+  
+  background-image: url("../assets/picsForWebsite/bg10.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
 #program-info{
   margin-bottom: 15px;
 }
@@ -307,7 +318,9 @@ footer {
     /* Positioning */
     margin-left: 0;
   }
- 
+ body#home {
+  background-position: right;
+ }
   .jumbotron{
     padding-top: 0;
     margin-bottom: 0;
