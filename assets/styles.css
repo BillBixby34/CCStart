@@ -117,7 +117,7 @@ body#home {
 }
 #splash-text {
   /* position: relative; */
-  top: 200px;
+  /* top: 100px; */
   color: whitesmoke;
   /* Fix for text over background below */
   width: 100%;
@@ -125,9 +125,25 @@ body#home {
   
   text-align: center;
   background: rgba(0, 0, 0, 0.6);
-  margin-bottom: 10px;
-  margin-top: 300px;
+  margin-bottom: 50px;
+  margin-top: 200px;
   margin-right: 100%;
+}
+#home-signup {
+  margin-bottom: 40px;
+  margin-left: 25%;
+}
+#splash-button {
+  margin-right: 35%;
+  background-color: #b0e0e6;
+  color: #071715;
+  font-size: 16px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+#splash-button:active {
+  transform: translateY(5px);
 }
 
 /* --------- end Home Page -------*/
