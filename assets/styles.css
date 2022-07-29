@@ -268,7 +268,15 @@ font-weight: bold;
   height: 288px;
   /* margin-top: 30px;
   margin-right: 20px; */
-  margin: 30px 20px 5px 0px;
+  margin: 20px 20px 5px 0px;
+}
+#profile-image-wide {
+  float: left;
+  width:288px;
+  height: 192px;
+  /* margin-top: 30px;
+  margin-right: 20px; */
+  margin: 5px 20px 5px 0px;
 }
 /* --------End Staff Page --------*/
 
