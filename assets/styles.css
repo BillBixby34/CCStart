@@ -4,7 +4,7 @@ body {
   padding-bottom: 20px;
   margin-bottom: 100px;
   /* Typography */
-    font-family: Charlegmagne, Gungsuh, sans-serif, "Times New Roman";
+    font-family: Charlegmagne, Gungsuh, Georgia, Helvetica;
     /* background-image: url("../assets/picsForWebsite/red_granite.jpeg"); */
     background-color: #fbad3c;
     font-size: 18px;
@@ -48,8 +48,9 @@ h4 {
 .jumbotron {
   background: none; 
   padding-top: 20px;
+  
   margin-bottom: 30px;
-  max-height: 250px;
+  /* max-height: 250px; */
 }
 
 
@@ -101,7 +102,7 @@ button.navbar-toggle {
 
 body#home {
   /* changed background image from 02 to 05 */
-  background-image: url("../assets/picsForWebsite/splashPic05.jpg");
+  background-image: url("../assets/picsForWebsite/homeBg01.jpg");
   height: auto;
   background-attachment: fixed;
   background-position: center bottom;
@@ -129,18 +130,29 @@ body#home {
   margin-top: 200px;
   margin-right: 100%;
 }
-#home-signup {
-  margin-bottom: 40px;
-  margin-left: 25%;
+#button-signup {
+  
+    margin: 5px;
+    /* position: absolute; */
+    /* top: 50%; */
+    text-align: center;
+    /* -ms-transform: translate(-50%, -50%); */
+    /* transform: translate(-50%, -50%); */
 }
+/* splash-button is also on sign-up page */
 #splash-button {
-  margin-right: 35%;
+  /* margin-right: 35%; */
   background-color: #b0e0e6;
   color: #071715;
   font-size: 16px;
   padding: 10px;
   cursor: pointer;
   border-radius: 50%;
+  float: none;
+  text-align: center;
+  width: 95px;
+  height: 60px;
+  
 }
 #splash-button:active {
   transform: translateY(5px);
@@ -163,6 +175,7 @@ body#program{
   background-image: url("../assets/picsForWebsite/bg10.jpg");
   background-repeat: no-repeat;
   background-position: center center;
+  background-size: cover;
 }
 #program-info{
   margin-bottom: 15px;
@@ -338,7 +351,7 @@ footer {
   background-position: right;
  }
   .jumbotron{
-    padding-top: 0;
+    /* padding-top: 0; */
     margin-bottom: 0;
   }
   .navbar{
