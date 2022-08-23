@@ -1,13 +1,18 @@
+@font-face {
+  font-family: "charlemagne-std";
+src: url('../assets/fonts/CharlemagneStd-Bold.otf');
+}
 
 body {
-  /* padding-top: 50px; */
-  padding-bottom: 20px;
-  margin-bottom: 100px;
-  /* Typography */
-    font-family: Charlegmagne, Gungsuh, Georgia, Helvetica;
-    /* background-image: url("../assets/picsForWebsite/red_granite.jpeg"); */
+    /* padding-top: 50px; */
+    padding-bottom: 20px;
+    margin-bottom: 100px;
+    /* Typography */
+    font-family: "charlemagne-std", serif;
+    /* font-style: normal; */
+    /* font-weight: 400; */
     background-color: #fbad3c;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 120%;
 }
 
@@ -56,10 +61,6 @@ h4 {
 
 /* -------Nav Bar------ */
 
-/* Will try position: sticky to see if it works */
-/* For position also specify at least one of top, right, bottom or left for sticky positioning to work. */
-
-/* Not sure what navbar-right does, may delete */
 .navbar-right {
   padding-top: 7px;
   padding-right: 21px;
@@ -74,7 +75,7 @@ button.navbar-toggle {
   
 }
 
-.navbar-left > img {
+.navbar-left img {
   /* width: auto; */
   height: 100px;
 }
@@ -101,7 +102,7 @@ button.navbar-toggle {
 /* ------- Home Page -------*/
 
 body#home {
-  /* changed background image from 02 to 05 */
+  
   background-image: url("../assets/picsForWebsite/homeBg01.jpg");
   height: auto;
   background-attachment: fixed;
@@ -136,15 +137,14 @@ body#home {
     /* position: absolute; */
     /* top: 50%; */
     text-align: center;
-    /* -ms-transform: translate(-50%, -50%); */
-    /* transform: translate(-50%, -50%); */
+  
 }
 /* splash-button is also on sign-up page */
 #splash-button {
   /* margin-right: 35%; */
   background-color: #b0e0e6;
   color: #071715;
-  font-size: 16px;
+  font-size: 12px;
   padding: 10px;
   cursor: pointer;
   border-radius: 50%;
@@ -180,22 +180,7 @@ body#program{
 #program-info{
   margin-bottom: 15px;
 }
-/* removing carousel test
-to see if carousel settings are affecting placement elsewhere */
-/* .carousel img {
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  max-width: 100%;
-  height: auto;
-} */
-/* .carousel-control {
-  visibility: hidden;
-}
 
-.carousel-control:hover {
-  opacity: 0.5;
-} */
 
 .img-thumbnail { 
 -webkit-filter: grayscale(1);
@@ -207,9 +192,11 @@ filter: none;
 }
 #program-image img {
   margin-left: 0;
+  margin-bottom: 5px;
+  margin-top: 27px;
   width: 100%;
   height: auto;
-  margin-bottom: 5px;
+  
 }
 
 #test-color {
@@ -342,7 +329,7 @@ footer {
 /* --------End footer -------- */
 @media only screen and (max-width: 767px) {
  
-  #logo > img {
+   .navbar-left > img {
     width: 100%;
     max-width: 300px;
   
