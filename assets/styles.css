@@ -31,8 +31,9 @@ html {
 }
 
  p {
+  font-family: garamond, 'Times New Roman';
   padding-top: 20px;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 30px;
   color: whitesmoke;
 }
@@ -47,6 +48,7 @@ a {
 }
 
 h4 {
+  font-family: garamond, 'Times New Roman';
   line-height: 21px;
 }
 
@@ -118,10 +120,7 @@ body#home {
   text-shadow: 2px 2px 5px #071715;
 }
 #splash-text {
-  /* position: relative; */
-  /* top: 100px; */
   color: whitesmoke;
-  /* Fix for text over background below */
   width: 100%;
   padding: 5px;
   
